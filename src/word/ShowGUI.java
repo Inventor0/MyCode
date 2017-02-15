@@ -27,6 +27,8 @@ public class ShowGUI implements Runnable {
 			public void run() {
 				try {
 					
+				
+					
 					ShowGUI window = new ShowGUI();
 					window.frame.setVisible(true);
 					new Thread(window).start();
